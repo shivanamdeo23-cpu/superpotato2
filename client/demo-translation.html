@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="hero.title">Early Detection Saves Lives</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .language-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        
+        .language-btn {
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin-left: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .language-btn.active {
+            background: #004499;
+            font-weight: bold;
+        }
+        
+        .language-btn:hover {
+            background: #0052a3;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn {
+            background: white;
+            color: #333;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        
+        .cta-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .alert {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .alert h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        
+        .evidence {
+            background: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .quick-actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .action-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: box-shadow 0.2s;
+        }
+        
+        .action-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="language-btn" data-language="en">English</button>
+        <button class="language-btn" data-language="hi">हिंदी</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 data-i18n="hero.title">Early Detection Saves Lives</h1>
+        <p data-i18n="hero.subtitle">Comprehensive bone health resources designed specifically for Asian women</p>
+        
+        <div class="cta-buttons">
+            <a href="#" class="cta-btn" data-i18n="hero.riskAssessment">Take Risk Assessment</a>
+            <a href="#" class="cta-btn" data-i18n="hero.findDoctor">Find a Doctor</a>
+        </div>
+    </section>
+
+    <!-- Important Alert -->
+    <div class="alert">
+        <h3 data-i18n="alert.title">Important Health Notice</h3>
+        <p data-i18n="alert.description">Asian women are at higher risk for osteoporosis due to genetic factors, body frame size, and dietary patterns. Early detection and prevention are crucial for maintaining bone health.</p>
+    </div>
+
+    <!-- Clinical Evidence -->
+    <div class="evidence">
+        <h3 data-i18n="evidence.title">Clinical Research Evidence</h3>
+        <p data-i18n="evidence.description">Osteoporosis Risk: Asian women generally have lower bone mineral density (BMD) than other groups, placing them at higher risk for developing osteoporosis. This prevalence is higher, particularly among postmenopausal women.</p>
+        <p><strong data-i18n="evidence.source">Source:</strong> <em data-i18n="evidence.citation">Lo JC, Pressman AR, et al. Osteoporosis and fracture among older US Asian adults. Curr Osteoporos Rep. 2023;21(4):374-383. PubMed PMID: 37542683</em></p>
+    </div>
+
+    <!-- Quick Actions -->
+    <section>
+        <h2 data-i18n="quickActions.title">Take Action Today</h2>
+        
+        <div class="quick-actions">
+            <div class="action-card">
+                <h3 data-i18n="quickActions.riskAssessment">Risk Assessment</h3>
+                <p data-i18n="quickActions.riskAssessmentDesc">Complete a personalized risk evaluation in your language</p>
+            </div>
+            
+            <div class="action-card">
+                <h3 data-i18n="quickActions.scheduleTest">Schedule Test</h3>
+                <p data-i18n="quickActions.scheduleTestDesc">Book your bone density screening appointment</p>
+            </div>
+            
+            <div class="action-card">
+                <h3 data-i18n="quickActions.downloadResources">Download Resources</h3>
+                <p data-i18n="quickActions.downloadResourcesDesc">Access educational materials in your preferred language</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            <span data-i18n="footer.riskAssessmentBy">Risk assessment tool provided by</span>
+            <strong data-i18n="footer.ros">Royal Osteoporosis Society (ROS)</strong>
+        </p>
+        <p data-i18n="footer.rosDescription">The UK's national charity dedicated to improving bone and muscle health</p>
+    </footer>
+
+    <!-- Load translation script -->
+    <script type="module" src="/src/lib/simple-translations.js"></script>
+</body>
+</html>

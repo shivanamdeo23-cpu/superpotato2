@@ -1,0 +1,54 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About", 
+    "assessment": "Risk Assessment",
+    "resources": "Resources",
+    "contact": "Contact",
+    "feedback": "Feedback"
+  },
+  "hero": {
+    "title": "Prevention is Key",
+    "subtitle": "Comprehensive bone health resources designed specifically for Asian women",
+    "riskAssessment": "Take Risk Assessment",
+    "findDoctor": "Find a Doctor"
+  },
+  "alert": {
+    "title": "Important Health Notice",
+    "description": "Asian women are at higher risk for osteoporosis due to genetic factors, body frame size, and dietary patterns. Early detection and prevention are crucial for maintaining bone health."
+  },
+  "evidence": {
+    "title": "Clinical Research Evidence",
+    "description": "Osteoporosis Risk: Asian women generally have lower bone mineral density (BMD) than other groups, placing them at higher risk for developing osteoporosis. This prevalence is higher, particularly among postmenopausal women.",
+    "source": "Source:",
+    "citation": "Lo JC, Pressman AR, et al. Osteoporosis and fracture among older US Asian adults. Curr Osteoporos Rep. 2023;21(4):374-383. PubMed PMID: 37542683"
+  },
+  "quickActions": {
+    "title": "Take Action Today",
+    "riskAssessment": "Risk Assessment",
+    "riskAssessmentDesc": "Complete a personalized risk evaluation in your language",
+    "scheduleTest": "Schedule Test", 
+    "scheduleTestDesc": "Book your bone density screening appointment",
+    "downloadResources": "Download Resources",
+    "downloadResourcesDesc": "Access educational materials in your preferred language"
+  },
+  "footer": {
+    "riskAssessmentBy": "Risk assessment tool provided by",
+    "ros": "Royal Osteoporosis Society (ROS)",
+    "rosDescription": "The UK's national charity dedicated to improving bone and muscle health"
+  },
+  "language": {
+    "current": "Current",
+    "switchTo": "Switch to",
+    "english": "English",
+    "hindi": "Hindi"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "tryAgain": "Try Again",
+    "close": "Close",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  }
+}
